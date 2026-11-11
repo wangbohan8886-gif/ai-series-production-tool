@@ -3,7 +3,7 @@ $ErrorActionPreference = "Stop"
 $root = Split-Path -Parent $MyInvocation.MyCommand.Path
 $src = $root
 $out = Join-Path $root "out"
-$name = "AI系列生产工具"
+$name = [Text.Encoding]::UTF8.GetString([Convert]::FromBase64String("QUnns7vliJfnlJ/kuqflt6Xlhbc="))
 $exeName = "AI Series Production Tool 3.2.0.65.exe"
 $payloadDir = Join-Path $out "payload"
 $appDir = Join-Path $payloadDir $name
